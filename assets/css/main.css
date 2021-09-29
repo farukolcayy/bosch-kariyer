@@ -610,10 +610,11 @@ a.back-to-top:hover, a.back-to-top:focus {
 .navbar-brand {
   position: relative;
   padding: 0px;
+  width: 170px;
 }
 
 .navbar-brand img {
-  width: 50%;
+  width: 100%;
 }
 
 .top-nav-collapse {
@@ -2303,7 +2304,8 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 #main-slide .carousel-item .carousel-caption p {
   font-size: 40px;
-  color: #00629A;
+  color: #fd1d06;
+  font-weight: 700;
 }
 
 #main-slide .carousel-item.active .carousel-caption {
@@ -2858,7 +2860,7 @@ textarea:focus {
 
 .card-custom {
   overflow: hidden;
-  min-height: 450px;
+  min-height: 535px;
   box-shadow: 0 0 15px rgba(10, 10, 10, 0.3);
 }
 
@@ -2902,4 +2904,7 @@ textarea:focus {
 }
 .card-title{
   font-size: 32px;
+}
+.career-card .col-md-6 a{
+  margin-top: 15px;
 }

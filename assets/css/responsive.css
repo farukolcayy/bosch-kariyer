@@ -242,6 +242,10 @@
 
 /* mobile or only mobile */
 @media (max-width: 767px) {
+  .services-item .services-content h3 a{
+    font-size: 20px;
+  }
+  
   .responsive-card-1{
     display: block;
   }
@@ -250,8 +254,9 @@
     display: none;
   }
   .section-title {
-    font-size: 40px;
-  }
+    font-size: 26px;
+    line-height: 25px;
+}
   .section-sub {
     font-size: 16px;
   }
@@ -365,6 +370,9 @@
 
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .video{
+    padding-bottom: 20px;
+  }
   #cont-responsive {
    
    
@@ -421,7 +429,7 @@
     top: 0;
   }
   .navbar-brand img {
-    width: 55%;
+    width: 100%;
    
   }
   #mobile-menu {
