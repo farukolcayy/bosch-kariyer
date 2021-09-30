@@ -3,10 +3,29 @@ html {
   overflow-x: hidden;
 }
 
-@font-face {
-  font-family: "DINNextLTPro-Regular";
+/* @font-face {
+  font-family: "DIN Next LT Pro Regular";
   src: url("//db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.eot");
-  src: url("//db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.woff") format("woff"), url("//db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.svg#DINNextLTPro-Regular") format("svg");
+  src: url("//db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.woff") format("woff"), url("//db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.svg#DIN Next LT Pro Regular") format("svg");
+}  */
+
+/* @font-face {font-family: "DIN Next LT Pro Regular";
+  src: url("https://bosch.ogrencikariyeri.com/assets/fonts/641bc93cc4c70cc2f9bb2c9abb8d3483.eot");
+  src: url("https://bosch.ogrencikariyeri.com/assets/fonts/641bc93cc4c70cc2f9bb2c9abb8d3483.eot?#iefix") format("embedded-opentype"),
+  url("https://bosch.ogrencikariyeri.com/assets/fonts/641bc93cc4c70cc2f9bb2c9abb8d3483.woff2") format("woff2"), 
+  url("https://bosch.ogrencikariyeri.  com/assets/fonts/641bc93cc4c70cc2f9bb2c9abb8d3483.woff") format("woff"), 
+  url("https://bosch.ogrencikariyeri.com/assets/fonts/641bc93cc4c70cc2f9bb2c9abb8d3483.ttf") format("truetype"), 
+  url("https://bosch.ogrencikariyeri.com/assets/fonts/641bc93cc4c70cc2f9bb2c9abb8d3483.svg#Regular") format("svg");
+} */
+
+
+@font-face {font-family: "DINNextLTPro-Regular";
+  src: url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.eot"); /* IE9*/
+  src: url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.woff2") format("woff2"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.woff") format("woff"), /* chrome firefox */
+  url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+  url("https://db.onlinewebfonts.com/t/93a467f70a3e7b27a9b52a686f351dbe.svg#DINNextLTPro-Regular") format("svg"); /* iOS 4.1- */
 }
 
 body {
@@ -48,7 +67,7 @@ a a:focus {
 
 p {
   font-weight: 400;
-  font-family: 'DINNextLTPro-Regular', sans-serif;
+  font-family: 'DINNextLTPro-Regular', sans-serif !important;
   margin: 0px;
   font-size: 14px;
 }
@@ -518,11 +537,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   padding-right: 0;
 }
 
-#page-banner-area {
-  background: url(../img/background/banner.jpg) no-repeat;
-  background-position: 50% 50%;
-  background-size: cover;
-}
+
 
 .page-banner {
   position: relative;
@@ -1148,6 +1163,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   border: none;
 }
 
+
 .schedule .show .card-body {
   background: #f3f4f3;
 }
@@ -1420,7 +1436,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 #main-slide {
-  background: url(../img/slider/slide1.jpg) no-repeat;
+  background: url(../img/slider/slide1.webp) no-repeat;
   background-size: cover;
 }
 
@@ -2152,12 +2168,6 @@ a.back-to-top:hover, a.back-to-top:focus {
 
 /* Pricing Ticket */
 
-#pricing {
-  background: url(../img/background/bg-pricing.jpg);
-  background-attachment: fixed;
-  overflow: hidden;
-  position: relative;
-}
 
 #pricing .section-title-header .section-title {
   color: #fff;
@@ -2908,4 +2918,8 @@ textarea:focus {
 .career-card .col-md-6 a{
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.image-list li p a:hover{
+  color: #ff0909 !important;
 }

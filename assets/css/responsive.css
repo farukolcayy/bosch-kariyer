@@ -56,12 +56,11 @@
   .section-title-2{
     font-size: 16px;
   }
-  .card-footer .responsive a{
-    padding-top: 24px ;
-  }
- 
+  
+  
   
 }
+
 /* tablets */
 @media (max-width: 991px) {
   .responsive-card-1{
