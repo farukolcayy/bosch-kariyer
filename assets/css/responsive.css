@@ -56,9 +56,16 @@
   .section-title-2{
     font-size: 16px;
   }
+ 
   
   
   
+  
+}
+@media (min-width:1440px){
+  .max-width-header{
+    max-width: 1500px !important;
+  }
 }
 
 /* tablets */
@@ -363,15 +370,12 @@
 .radio-responsive label{
   padding-right: 20px;
 }
-.radio-responsive input{
-
-}
-
-
-
 
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .card-custom{
+    min-height: auto !important;
+  }
   .video{
     padding-bottom: 20px;
   }
@@ -485,7 +489,7 @@
 
 @media(max-width:1024px) and (min-width:769px){
   .navbar-expand-lg .navbar-nav .nav-link{
-    font-size: 12px;
+    font-size: 9px;
   }
 }
 
