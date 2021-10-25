@@ -1,5 +1,9 @@
 /* only small desktops */
 @media (min-width: 992px) and (max-width: 1199px) {
+  .nav-write {
+    color: #fff !important;
+    font-size: 12px !important;
+}
   .responsive-card-1{
     display: block;
   }
@@ -373,6 +377,11 @@
 
 
 @media (min-width: 320px) and (max-width: 480px) {
+  .nav-write {
+    color: #fff !important;
+    line-height: 10px;
+    font-size: 9px !important;
+}
   .card-custom{
     min-height: auto !important;
   }

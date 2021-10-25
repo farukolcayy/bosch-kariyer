@@ -872,6 +872,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 @media (min-width:425px) and (max-width: 768px) {
+
   .row .col-md-8 {
     padding-right: 100px;
   }
