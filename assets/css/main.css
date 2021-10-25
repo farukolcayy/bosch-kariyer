@@ -2983,7 +2983,7 @@ textarea:focus {
 }
 .accordion button[aria-expanded=true] + .accordion-content {
   opacity: 1;
-  max-height: 9em;
+  max-height: 16em;
   transition: all 200ms linear;
   will-change: opacity, max-height;
 }
@@ -3003,4 +3003,21 @@ textarea:focus {
 /************* Accordion Faq ****************/
 .footer-list-style li {
   list-style: none
+}
+
+.nav-write{
+  color: #fff !important;
+  font-size: 20px !important;
+}
+.nav-bosch{
+  color: #fff !important;
+  font-size: 20px !important;
+}
+.faq-title span{
+  font-size: 25px;
+  font-weight: 700;
+  color: #000;
+}
+.faq-title{
+  font-size: 18px;
 }
