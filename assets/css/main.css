@@ -885,7 +885,7 @@ a.back-to-top:hover, a.back-to-top:focus {
   .navbar-brand {
     margin-right: 65px;
     position: absolute;
-    padding: 3px 15px;
+    padding: 20px 15px;
     top: 0;
   }
   .navbar-brand img {
@@ -910,6 +910,7 @@ a.back-to-top:hover, a.back-to-top:focus {
     color: #007bc0;
   }
 }
+
 
 #live-stream {
   padding: 0px;
