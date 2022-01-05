@@ -3023,3 +3023,29 @@ textarea:focus {
 .faq-title{
   font-size: 18px;
 }
+
+/*********** Job *******************/
+
+.job-banner {
+  padding: 1em 1.5em 1em 0;
+  font-size: 20px !important;
+    font-weight: 700 !important;
+    position: relative;
+    display: block;
+    float: left;
+    text-align: left;
+    width: 100%;
+    padding: 9px 0;
+    color: #007bc0;
+}
+.job-button {
+  padding: 5px 10px 10px 0px;
+}
+.job-button .btn-lg{
+  padding: 7px 34px;
+}
+.job-comment{
+  justify-content: center; 
+  text-align: center; 
+  border-bottom: 1px solid #e5e5e5;
+}
