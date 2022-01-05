@@ -255,6 +255,8 @@
 
 /* mobile or only mobile */
 @media (max-width: 767px) {
+
+
   .services-item .services-content h3 a{
     font-size: 20px;
   }
@@ -377,6 +379,8 @@
 
 
 @media (min-width: 320px) and (max-width: 480px) {
+
+
   .nav-write {
     color: #fff !important;
     line-height: 10px;
@@ -497,7 +501,7 @@
 }
 @media (min-width: 1440px) {
   .navbar-expand-lg .navbar-nav .nav-link{
-    font-size: 15px !important;
+    font-size: 14px !important;
     line-height: 25px ;
   }
   /* CSS */
@@ -505,7 +509,7 @@
 }
 @media(max-width:1024px) and (min-width:769px){
   .navbar-expand-lg .navbar-nav .nav-link{
-    font-size: 9px;
+    font-size: 7px;
   }
 }
 .navbar{
@@ -542,7 +546,7 @@
 }
 @media (min-width: 1024px) {
   .navbar-expand-lg .navbar-nav .nav-link{
-    font-size: 9px ;
+    font-size: 7px ;
     line-height: 25px ;
   }
   /* CSS */
@@ -577,7 +581,9 @@
 
 @media (min-width: 481px) and (max-width: 767px) {
   
-  /* CSS */
+  .job-banner {
+    text-align: center !important;
+}
   
 }
 
@@ -587,7 +593,7 @@
 */
 
 @media (min-width: 320px) and (max-width: 480px) {
-  
+
   /* CSS */
   
 }

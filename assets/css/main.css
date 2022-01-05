@@ -3025,14 +3025,17 @@ textarea:focus {
 }
 
 /*********** Job *******************/
-
+@media (min-width: 320px) and (max-width: 480px) {
+  .job-banner {
+      text-align: center !important;
+  }
+}
 .job-banner {
   padding: 1em 1.5em 1em 0;
   font-size: 20px !important;
     font-weight: 700 !important;
     position: relative;
     display: block;
-    float: left;
     text-align: left;
     width: 100%;
     padding: 9px 0;
