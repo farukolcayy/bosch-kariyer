@@ -26,7 +26,7 @@ try {
     }
 
     if (!empty($nameSurname) && strlen($phoneNumber) > 15 && !empty($university) && !empty($department) && $university != "Üniversite Seçiniz...") {
-        $conn = new PDO('mysql:host=5.2.84.96;dbname=badiworks_bosch;charset=utf8;port=3306', 'badiworks_bosch', 'Ok?2021?.');
+        $conn = new PDO(-);
         $query = $conn->prepare("INSERT INTO tedarik_zinciri_muhendisi SET
         nameSurname = ?,
         phoneNumber = ?,
